@@ -20,9 +20,11 @@ Modelagem do cromossomo
 """
 Modelagem do cromossomo 
 """
+#Colunas
+#Preço, Volume, Agressor e Classificador
 NUM_VAR = 4         #número de variáveis
-L_INF = [0.01, 0.01, 0.01, 0.01]           #limite(s) inferior(e) das variáveis
-L_SUP = [7.11, 7.11, 7.11, 7.11]           #limite(s) inferior(e) das variáveis
+L_INF = [5493, 5, 0, 0]           #limite(s) inferior(e) das variáveis
+L_SUP = [5549.5, 4260, 1, 1]           #limite(s) inferior(e) das variáveis
 TAM_CROMO = 40        #Número de bits do cromossomo
 FENOTIPO = [10, 10, 10, 10]        #Número de bits de cada gene
 """
